@@ -22,14 +22,3 @@ Conceitos aplicados:
 - **Encapsulamento**
 - **Polimorfismo (simples)**
 
-## 🧱 Estrutura das Classes
-
-- `Pessoa`: Classe base com atributo `nome`
-- `Aluno`: Subclasse de `Pessoa`, com `matrícula` e `disciplinas`
-- `Disciplina`: Armazena notas e calcula a média
-- `GerenciadorAlunos`: Controla o CRUD dos alunos
-
-## 🖥️ Tecnologias Utilizadas
-
-- [Python 3.x](https://www.python.org/)
-- Paradigma Orientado a Objetos (OOP)
