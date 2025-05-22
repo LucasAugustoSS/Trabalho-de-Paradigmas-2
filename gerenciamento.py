@@ -9,8 +9,8 @@ class Pessoa:
     def get_matricula(self):
         return self.__matricula
 
-    def print_valores(self):
-        print(f"Nome: {self.__nome} | Matrícula: {self.__matricula}")
+    def valores(self):
+        return f"Nome: {self.__nome} | Matrícula: {self.__matricula}"
 
 
 class Aluno(Pessoa):
@@ -60,8 +60,8 @@ class Professor(Pessoa):
                 print(f"{aluno.get_nome()}")
             print()
 
-    def print_valores(self):
-        print(f"Nome: {self.get_nome()} | Matrícula: {self.get_matricula()} | Disciplinas: {", ".join(disciplina.get_nome() for disciplina in self.__disciplinas)}")
+    def valores(self):
+        return super().valores() + f" | Disciplinas: {", ".join(disciplina.get_nome() for disciplina in self.__disciplinas)}"
 
 
 class Disciplina:
@@ -91,8 +91,8 @@ class Disciplina:
         for aluno in self.__alunos:
             print(aluno.get_nome())
 
-    def print_valores(self):
-        print(f"Nome: {self.__nome} | Professor: {self.__professor.get_nome()} | Alunos: {", ".join(aluno.get_nome() for aluno in self.__alunos)}")
+    def valores(self):
+        return f"Nome: {self.__nome} | Professor: {self.__professor.get_nome()} | Alunos: {", ".join(aluno.get_nome() for aluno in self.__alunos)}"
 
 
 class Sistema:
@@ -163,19 +163,19 @@ class Sistema:
             if self.__alunos:
                 print("- Alunos -")
                 for aluno in self.__alunos:
-                    aluno.print_valores()
+                    print(aluno.valores())
                 print()
             
             if self.__professores:
                 print("- Professores -")
                 for professor in self.__professores:
-                    professor.print_valores()
+                    print(professor.valores())
                 print()
 
             if self.__disciplinas:
                 print("- Disciplinas -")
                 for disciplina in self.__disciplinas:
-                    disciplina.print_valores()
+                    print(disciplina.valores())
                 print()
 
 
@@ -194,7 +194,7 @@ if __name__ == "__main__":
         print("9. Finalizar\n")
 
         opcao = int(input("> "))
-        print("")
+        print()
 
         if opcao == 1:
             nome = input("Nome: ")
