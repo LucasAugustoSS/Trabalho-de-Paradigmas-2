@@ -37,39 +37,6 @@ Conceitos aplicados:
 ## ▶️ Como Executar
 
 1. Clone o repositório:
-   ```bash
    git clone https://github.com/LucasAugustoSS/Trabalho-de-Paradigmas-2.git
    cd Trabalho-de-Paradigmas-2
-
-
 2. Execute o programa:
-
-   ```bash
-   python main.py
-   ```
-
-## 📷 Exemplo de Saída
-
-```
-Boletim de João (Matrícula: 2025001)
-Disciplina: Matemática, Notas: [8.0, 7.5], Média: 7.75
-Disciplina: História, Notas: [9.0], Média: 9.00
-
-Boletim de Maria (Matrícula: 2025002)
-Disciplina: Matemática, Notas: [6.5], Média: 6.50
-Disciplina: Português, Notas: [8.5], Média: 8.50
-```
-
-## 👨‍💻 Integrantes
-
-* Thiago Rosa da Silva
-* João Dário Pamplona Arruda
-* Lucas Augusto Souza da Silva
-
-## 📚 Licença
-
-Este projeto é apenas para fins educacionais.
-
-```
-
-
