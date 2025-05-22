@@ -33,10 +33,3 @@ Conceitos aplicados:
 
 - [Python 3.x](https://www.python.org/)
 - Paradigma Orientado a Objetos (OOP)
-
-## ▶️ Como Executar
-
-1. Clone o repositório:
-   git clone https://github.com/LucasAugustoSS/Trabalho-de-Paradigmas-2.git
-   cd Trabalho-de-Paradigmas-2
-2. Execute o programa:
