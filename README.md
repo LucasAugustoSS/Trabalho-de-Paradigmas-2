@@ -1,4 +1,3 @@
-
 # 🎓 Trabalho de Paradigmas - Gerenciamento de Notas em Python (POO)
 
 Este projeto foi desenvolvido como parte do trabalho da disciplina **Paradigmas de Linguagens de Programação** do curso de Ciência da Computação do CESUPA.  
