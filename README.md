@@ -11,7 +11,7 @@ Desenvolver um sistema em Python, utilizando os princípios da Programação Ori
 - Inserir notas
 - Calcular médias
 - Exibir boletins
-- 
+
 ## 🧠 Paradigma Escolhido
 
 O paradigma utilizado foi o **orientado a objetos**, por sua modularidade, organização e reutilização de código.  
